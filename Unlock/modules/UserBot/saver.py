@@ -162,7 +162,7 @@ async def saver(m: Message, chat_id: int, msg_id: int, chat_type: str, joining_l
                 try:
                     down_thumb = await ubot.download_media(msg.audio.thumbs[0])
                 except:
-                    down_thumb = "Unlock/stark_thumb.jpg"
+                    down_thumb = "Unlock/hamker_thumb.jpg"
                     delete = False
                 msgg = await ubot.send_audio(chat_id=channel_id, audio=file_path, caption=caption, performer=msg.audio.performer, title=msg.audio.title, file_name=msg.audio.file_name, duration=msg.audio.duration, thumb=down_thumb)
                 cache_msg_id = msgg.id
@@ -213,7 +213,7 @@ async def saver(m: Message, chat_id: int, msg_id: int, chat_type: str, joining_l
             pass
         return {
             "IsCached": False,
-            "Thumb": down_thumb or "Unlock/stark_thumb.jpg",
+            "Thumb": down_thumb or "Unlock/hamker_thumb.jpg",
             "MsgID": msgg.id
         }
 
