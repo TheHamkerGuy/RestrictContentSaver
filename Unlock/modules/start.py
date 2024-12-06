@@ -7,7 +7,7 @@ Author:
     - @TheHamkerGuy on GitHub
 
 Project:
-    - Developed for the @StarkBots channel on Telegram.
+    - Developed for the @ToolsTheHamkerGuy channel on Telegram.
 
 License:
     This code is open-source and can be reused or modified under the following conditions:
@@ -41,8 +41,8 @@ async def start(bot: Client, m: Message):
     btn = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🌟 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 🌟", url="https://t.me/StarkBots"),
-                InlineKeyboardButton("🍀 sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ 🍀", url="https://t.me/StarkBotsChat")
+                InlineKeyboardButton("🌟 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 🌟", url="https://t.me/ToolsTheHamkerGuy"),
+                InlineKeyboardButton("🍀 sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ 🍀", url="https://t.me/ToolsTheHamkerGuySupport")
             ],
             [
                 InlineKeyboardButton("🧑‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🧑‍💻", callback_data="developer"),
@@ -119,11 +119,11 @@ async def tos_callback(bot: Client, q: CallbackQuery):
     """
     btn = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("Back 🔙", callback_data="back")]
+            [InlineKeyboardButton("ʙᴀᴄᴋ 🔙", callback_data="back")]
         ]
     )
     tos_text = (
-        "**📜 Terms of Service - Restricted Content Saver Bot**\n\n"
+        "**📜 Terms of Service - Restrict Content Saver Bot**\n\n"
         "1️⃣ This bot is for educational purposes only.\n"
         "2️⃣ The owner is not responsible for any misuse or violation of platform ToS.\n"
         "3️⃣ Users must comply with all applicable laws and platform policies.\n"
@@ -145,8 +145,8 @@ async def back_to_home(bot: Client, q: CallbackQuery):
     btn = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🌟 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 🌟", url="https://t.me/StarkBots"),
-                InlineKeyboardButton("🍀 sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ 🍀", url="https://t.me/StarkBotsChat")
+                InlineKeyboardButton("🌟 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 🌟", url="https://t.me/ToolsTheHamkerGuy"),
+                InlineKeyboardButton("🍀 sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ 🍀", url="https://t.me/ToolsTheHamkerGuySupport")
             ],
             [
                 InlineKeyboardButton("🧑‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🧑‍💻", callback_data="developer"),
