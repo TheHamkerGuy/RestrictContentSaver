@@ -3,8 +3,8 @@ This bot saves restricted content and makes it accessible to users via commands.
 Includes commands for start, help, and ToS.
 
 Author:
-    - @CoderX on Telegram
-    - @Snehashish06 on GitHub
+    - @TheHamkerGuy on Telegram
+    - @TheHamkerGuy on GitHub
 
 Project:
     - Developed for the @StarkBots channel on Telegram.
@@ -41,25 +41,24 @@ async def start(bot: Client, m: Message):
     btn = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🌟 Updates Channel 🌟", url="https://t.me/StarkBots"),
-                InlineKeyboardButton("🍀 Support Chat 🍀", url="https://t.me/StarkBotsChat")
+                InlineKeyboardButton("🌟 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 🌟", url="https://t.me/StarkBots"),
+                InlineKeyboardButton("🍀 sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ 🍀", url="https://t.me/StarkBotsChat")
             ],
             [
-                InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", callback_data="developer"),
-                InlineKeyboardButton("📜 ToS 📜", callback_data="tos")
+                InlineKeyboardButton("🧑‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🧑‍💻", callback_data="developer"),
+                InlineKeyboardButton("📜 TᴏS 📜", callback_data="tos")
             ]
         ]
     )
     start_text = (
-        "🌟 **Welcome to Restricted Content Saver Bot!** 🌟\n\n"
-        "✨ **Features:**\n"
-        "🔹 Save restricted content easily.\n"
-        "🔹 Retrieve content with simple commands.\n"
-        "🔹 Open-source for transparency.\n\n"
-        "📝 **Usage:**\n"
-        "1️⃣ Send the link of restricted content to save.\n"
-        "2️⃣ Use commands like `/save` to retrieve content.\n\n"
-        "For help, click on **Help** or type `/help`."
+        "🌟 **ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʀᴇsᴛʀɪᴄᴛ ᴄᴏɴᴛᴇɴᴛ sᴀᴠᴇʀ ʙᴏᴛ!** 🌟\n\n"
+        "✨ **ғᴇᴀᴛᴜʀᴇs:**\n"
+        "🔹 sᴀᴠᴇ ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ ᴇᴀsɪʟʏ.\n"
+        "🔹 ʀᴇᴛʀɪᴇᴠᴇ ᴄᴏɴᴛᴇɴᴛ ᴡɪᴛʜ sɪᴍᴘʟᴇ ᴄᴏᴍᴍᴀɴᴅs.\n"
+        "📝 **ᴜsᴀɢᴇ:**\n"
+        "1️⃣ sᴇɴᴅ ᴛʜᴇ ʟɪɴᴋ ᴏғ ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ ᴛᴏ sᴀᴠᴇ.\n"
+        "2️⃣ ᴜsᴇ ᴄᴏᴍᴍᴀɴᴅs ʟɪᴋᴇ `/save` ᴛᴏ ʀᴇᴛʀɪᴇᴠᴇ ᴄᴏɴᴛᴇɴᴛ.\n\n"
+        "ғᴏʀ ʜᴇʟᴘ, ᴄʟɪᴄᴋ on **ʜᴇʟᴘ** ᴏʀ ᴛʏᴘᴇ `/help`."
     )
     await m.reply_photo(photo=photo, caption=start_text, reply_markup=btn)
 
@@ -146,20 +145,20 @@ async def back_to_home(bot: Client, q: CallbackQuery):
     btn = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🌟 Updates Channel 🌟", url="https://t.me/StarkBots"),
-                InlineKeyboardButton("🍀 Support Chat 🍀", url="https://t.me/StarkBotsChat")
+                InlineKeyboardButton("🌟 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 🌟", url="https://t.me/StarkBots"),
+                InlineKeyboardButton("🍀 sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ 🍀", url="https://t.me/StarkBotsChat")
             ],
             [
-                InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", callback_data="developer"),
-                InlineKeyboardButton("📜 ToS 📜", callback_data="tos")
+                InlineKeyboardButton("🧑‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🧑‍💻", callback_data="developer"),
+                InlineKeyboardButton("📜 TᴏS 📜", callback_data="tos")
             ]
         ]
     )
     back_text = (
-        "🌟 **Welcome back to Restricted Content Saver Bot!** 🌟\n\n"
-        "✨ **Features:**\n"
-        "🔹 Save restricted content easily.\n"
-        "🔹 Retrieve content with simple commands.\n\n"
-        "For help, click on **Help** or type `/help`."
+        "🌟 **ᴡᴇʟᴄᴏᴍᴇ ʙᴀᴄᴋ ᴛᴏ ʀᴇsᴛʀɪᴄᴛ ᴄᴏɴᴛᴇɴᴛ sᴀᴠᴇʀ ʙᴏᴛ!** 🌟\n\n"
+        "✨ **ғᴇᴀᴛᴜʀᴇs:**\n"
+        "🔹 sᴀᴠᴇ ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ ᴇᴀsɪʟʏ.\n"
+        "🔹 ʀᴇᴛʀɪᴇᴠᴇ ᴄᴏɴᴛᴇɴᴛ ᴡɪᴛʜ sɪᴍᴘʟᴇ ᴄᴏᴍᴍᴀɴᴅs.\n\n"
+        "ғᴏʀ ʜᴇʟᴘ, ᴄʟɪᴄᴋ ᴏɴ **ʜᴇʟᴘ** ᴏʀ ᴛʏᴘᴇ `/help`."
     )
     await q.edit_message_text(back_text, reply_markup=btn)
