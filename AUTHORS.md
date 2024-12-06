@@ -3,7 +3,7 @@
 This project exists thanks to the hard work and contributions of the following individuals:
 
 # Maintainer and Creator
-- **Snehashish Biswas** - [GitHub Profile](https://github.com/Snehashish06)
+- **The Hamker Guy** - [GitHub Profile](https://github.com/TheHamkerGuy)
 ---
 ## Contributors
  - 
