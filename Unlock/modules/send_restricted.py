@@ -9,7 +9,7 @@ Author:
     - @TheHamkerGuy on GitHub
 
 Project:
-    - Developed for the @StarkBots channel on Telegram.
+    - Developed for the @ToolsTheHamkerGuy channel on Telegram.
 
 License:
     This code is open-source and can be reused or modified under the following conditions:
