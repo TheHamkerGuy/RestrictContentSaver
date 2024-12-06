@@ -1,6 +1,6 @@
-# Contributing to Restricted Content Saver Bot
+# Contributing to Restrict Content Saver Bot
 
-Thank you for considering contributing to the **Restricted Content Saver Bot**! We appreciate your interest in helping us improve and grow this project. Whether you're fixing a bug, adding a feature, or improving documentation, all contributions are welcome.
+Thank you for considering contributing to the **Restrict Content Saver Bot**! We appreciate your interest in helping us improve and grow this project. Whether you're fixing a bug, adding a feature, or improving documentation, all contributions are welcome.
 
 ---
 
@@ -12,7 +12,7 @@ We follow a collaborative open-source process, and we encourage you to contribut
 
 If you notice a minor issue like a typo, spelling mistake, or small inconsistency in the code or documentation, please **do not create a pull request** for those changes. Instead, report them in the **Support Chat**. We’ll handle those corrections quickly!
 
-- **Support Chat**: [@StarkBotsChat](https://t.me/StarkBotsChat)
+- **Support Chat**: [@ToolsTheHamkerGuySupport](https://t.me/ToolsTheHamkerGuySupport)
 
 We appreciate you pointing these out, but for minor issues, it's more efficient for us to handle them directly.
 
@@ -23,8 +23,8 @@ We appreciate you pointing these out, but for minor issues, it's more efficient 
 To begin working on a feature or fix, **fork** the repository and clone it to your local machine:
 
 ```bash
-git clone https://github.com/YourGitHubUsername/RestrictedContentSaver.git
-cd RestrictedContentSaver
+git clone https://github.com/YourGitHubUsername/RestrictContentSaver.git
+cd RestrictContentSaver
 ```
 
 ---
@@ -113,6 +113,6 @@ By submitting a PR, you agree that your contribution will be licensed under the 
 
 If you have any questions about the contribution process, feel free to reach out to us on the **Support Chat**:
 
-- **Support Chat**: [@StarkBotsChat](https://t.me/StarkBotsChat)
+- **Support Chat**: [@ToolsTheHamkerGuySupport](https://t.me/ToolsTheHamkerGuySupport)
 
-Thank you again for contributing to the **Restricted Content Saver Bot**! Your help makes a difference.
+Thank you again for contributing to the **Restrict Content Saver Bot**! Your help makes a difference.
