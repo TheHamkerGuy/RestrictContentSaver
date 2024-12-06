@@ -1,12 +1,12 @@
 """
-Encrypted Version - Restricted Content Saver
+Encrypted Version - Restrict Content Saver
 
 This script manages MongoDB-based data caching, user restrictions, and provides repository information.
 Sensitive data such as database URIs, invite links, and channel IDs are securely handled.
 
 Author:
-    - @CoderX on Telegram
-    - @Snehashish06 on GitHub
+    - @TheHamkerGuy on Telegram
+    - @TheHamkerGuy on GitHub
 
 Disclaimer:
     This project was coded solely for learning purposes. The owner will not be responsible for any misuse, 
