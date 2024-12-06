@@ -5,8 +5,8 @@ This script handles downloading media files from Telegram messages, caching them
 re-uploading them to a specified channel for easier access and sharing.
 
 Author:
-    - @CoderX on Telegram
-    - @Snehashish06 on GitHub
+    - @TheHamkerGuy on Telegram
+    - @TheHamkerGuy on GitHub
 
 Project:
     - Developed for the @StarkBots channel on Telegram.
@@ -82,14 +82,14 @@ async def saver(m: Message, chat_id: int, msg_id: int, chat_type: str, joining_l
         except UserAlreadyParticipant:
             pass
         except FloodWait as e:
-            await processing_msg.edit_text(f"Due to too many requests at this time, I can't process your request..\n\nReason: Flood wait for {e.value}")
+            await processing_msg.edit_text(f"ᴅᴜᴇ ᴛᴏ ᴛᴏᴏ ᴍᴀɴʏ ʀᴇǫᴜᴇsᴛs ᴀᴛ ᴛʜɪs ᴛɪᴍᴇ, ɪ ᴄᴀɴ'ᴛ ᴘʀᴏᴄᴇss ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ..\n\nʀᴇᴀsᴏɴ: ғʟᴏᴏᴅ ᴡᴀɪᴛ ғᴏʀ {e.value}")
             return None
         except (InviteHashExpired, InviteHashInvalid, UserBannedInChannel):
-            await processing_msg.edit_text("I am either banned from this group/channel or the link has expired.....")
+            await processing_msg.edit_text("ɪ ᴀᴍ ᴇɪᴛʜᴇʀ ʙᴀɴɴᴇᴅ ғʀᴏᴍ ᴛʜɪs ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ᴏʀ ᴛʜᴇ ʟɪɴᴋ ʜᴀs ᴇxᴘɪʀᴇᴅ.....")
             return None
         except Exception as e:
-            logging.error("Failed to join chat: %s", e)
-            await processing_msg.edit_text("Unable to join the private chat. Please verify the joining link.")
+            logging.error("ғᴀɪʟᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴄʜᴀᴛ: %s", e)
+            await processing_msg.edit_text("ᴜɴᴀʙʟᴇ ᴛᴏ ᴊᴏɪɴ ᴛʜᴇ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ. ᴘʟᴇᴀsᴇ ᴠᴇʀɪғʏ ᴛʜᴇ ᴊᴏɪɴɪɴɢ ʟɪɴᴋ.")
             return None
 
     try:
@@ -102,15 +102,15 @@ async def saver(m: Message, chat_id: int, msg_id: int, chat_type: str, joining_l
     try:
         msg = await ubot.get_messages(chat_id, int(msg_id))
     except ChannelPrivate:
-        await processing_msg.edit_text(f"I am banned from this channel.")
+        await processing_msg.edit_text(f"ɪ ᴀᴍ ʙᴀɴɴᴇᴅ ғʀᴏᴍ ᴛʜɪs ᴄʜᴀɴɴᴇʟ.")
         return None
     except Exception as e:
-        logging.error("Failed to fetch message: %s", e)
-        await processing_msg.edit_text(f"Error: {e}")
+        logging.error("ғᴀɪʟᴇᴅ ᴛᴏ ғᴇᴛᴄʜ ᴍᴇssᴀɢᴇ: %s", e)
+        await processing_msg.edit_text(f"ᴇʀʀᴏʀ: {e}")
         return None
 
     if msg.empty is True:
-        await processing_msg.edit_text("Are you sure?")
+        await processing_msg.edit_text("ᴀʀᴇ ʏᴏᴜ sᴜʀᴇ?")
         return None
     # Check if the media is already cached
     cached = SD().read_data(msg.link)
@@ -141,11 +141,11 @@ async def saver(m: Message, chat_id: int, msg_id: int, chat_type: str, joining_l
 
     # Validate file size
     if bytes_to_mb(size) > MAX_ALLOWED_DOWNLOAD_SIZE:
-        await processing_msg.edit_text("File is too large. The limit is 50MB, you can subscribe to premium for limits upto 4GB. To upgrade pm: @CoderX")
+        await processing_msg.edit_text("ғɪʟᴇ ɪs ᴛᴏᴏ ʟᴀʀɢᴇ. ᴛʜᴇ ʟɪᴍᴜᴛ ɪs 50ᴍʙ, ʏᴏᴜ ᴄᴀɴ sᴜʙsᴄʀɪʙᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ғᴏʀ ʟɪᴍɪᴛs ᴜᴘᴛᴏ 4ɢʙ. ᴛᴏ ᴜᴘɢʀᴀᴅᴇ ᴘᴍ: @TheHamkerGuy")
         return None
 
     if msg.chat.has_protected_content == False:
-        await processing_msg.edit_text("Bruh, the channel isn't even restricted...")
+        await processing_msg.edit_text("ʙʀᴜʜ, ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ɪsɴ'ᴛ ᴇᴠᴇɴ ʀᴇsᴛʀɪᴄᴛᴇᴅ...")
         await ubot.leave_chat(chat_id)
         return None
     # Retrieve caption or fallback to text
@@ -194,8 +194,8 @@ async def saver(m: Message, chat_id: int, msg_id: int, chat_type: str, joining_l
                 cache_msg_id = msgg.id
                 datasave = True
         except Exception as e:
-            logging.error(f"Error handling {file_type}: {e}")
-            await processing_msg.edit_text(f"Error: {e}")
+            logging.error(f"ᴇʀʀᴏʀ ʜᴀɴᴅʟɪɴɢ {file_type}: {e}")
+            await processing_msg.edit_text(f"ᴇʀʀᴏʀ: {e}")
             return None
 
     try:
