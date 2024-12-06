@@ -3,7 +3,7 @@ This file initializes and starts the bot and user bot clients using Pyrogram.
 It ensures the bot operates in an asynchronous manner, handling errors gracefully
 and logging all actions for transparency and debugging.
 
-Copyright (c) 2024 StarkBotsIndustries
+Copyright (c) 2024 TheHamkerGuy
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
