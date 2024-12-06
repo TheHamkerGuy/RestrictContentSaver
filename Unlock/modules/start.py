@@ -73,16 +73,16 @@ async def help(bot: Client, m: Message):
         m (Message): Incoming message object.
     """
     help_text = (
-        "**🆘 Help - Restricted Content Saver Bot**\n\n"
-        "🔹 **Commands:**\n"
-        "• `/start`: Start the bot and view the welcome message.\n"
-        "• `/help`: Display this help message.\n"
-        "• `/repo`: View the bot's source code.\n"
-        "• `/tos`: Read the bot's terms of service.\n\n"
-        "🔹 **How to Use:**\n"
-        "1️⃣ Send a restricted content link to the bot.\n"
-        "2️⃣ The bot will save the content for you.\n\n"
-        "For further assistance, join our **Support Chat**."
+        "**🆘 ʜᴇʟᴘ - ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ sᴀᴠᴇʀ ʙᴏᴛ**\n\n"
+        "🔹 **ᴄᴏᴍᴍᴀɴᴅs:**\n"
+        "• `/start`: sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴀɴᴅ ᴠɪᴇᴡ ᴛʜᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇ.\n"
+        "• `/help`: ᴅɪsᴘʟᴀʏ ᴛʜɪs ʜᴇʟᴘ ᴍᴇssᴀɢᴇ.\n"
+        "• `/repo`: ᴠɪᴇᴡ ᴛʜᴇ ʙᴏᴛ's sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.\n"
+        "• `/tos`: ʀᴇᴀᴅ ᴛʜᴇ ʙᴏᴛ's ᴛᴇʀᴍs ᴏғ sᴇʀᴠɪᴄᴇ.\n\n"
+        "🔹 **ʜᴏᴡ ᴛᴏ ᴜsᴇ:**\n"
+        "1️⃣ sᴇɴᴅ ᴀ ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ ʟɪɴᴋ ᴛᴏ ᴛʜᴇ ʙᴏᴛ.\n"
+        "2️⃣ ᴛʜᴇ ʙᴏᴛ ᴡɪʟʟ sᴀᴠᴇ ᴛʜᴇ ᴄᴏɴᴛᴇɴᴛ ғᴏʀ ʏᴏᴜ ʏᴏᴜ.\n\n"
+        "ғᴏʀ ғᴜʀᴛʜᴇʀ ᴀssɪsᴛᴀɴᴄᴇ, ᴊᴏɪɴ ᴏᴜʀ **sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ**."
     )
     await m.reply_text(help_text)
 
@@ -97,12 +97,12 @@ async def tos(bot: Client, m: Message):
         m (Message): Incoming message object.
     """
     tos_text = (
-        "**📜 Terms of Service - Restricted Content Saver Bot**\n\n"
-        "1️⃣ This bot is for educational purposes only.\n"
-        "2️⃣ The owner is not responsible for any misuse or violation of platform ToS.\n"
-        "3️⃣ Users must comply with all applicable laws and platform policies.\n"
-        "4️⃣ The bot reserves the right to ban users for abuse or misuse.\n\n"
-        "By using this bot, you agree to these terms."
+        "**📜 ᴛᴇʀᴍs ᴏғ sᴇʀᴠɪᴄᴇ - ʀᴇsᴛʀɪᴄᴛ ᴄᴏɴᴛᴇɴᴛ sᴀᴠᴇʀ ʙᴏᴛ**\n\n"
+        "1️⃣ ᴛʜɪs ʙᴏᴛ ɪs ғᴏʀ ᴇᴅᴜᴄᴀᴛɪᴏɴᴀʟ ᴘᴜʀᴘᴏsᴇs ᴏɴʟʏ.\n"
+        "2️⃣ ᴛʜᴇ ᴏᴡɴᴇʀ ɪs ɴᴏᴛ ʀᴇsᴘᴏɴsɪʙʟᴇ ғᴏʀ ᴀɴʏ ᴍɪsᴜsᴇ ᴏʀ ᴠɪᴏʟᴀᴛɪᴏɴ ᴏғ ᴘʟᴀᴛғᴏʀᴍ TᴏS.\n"
+        "3️⃣ ᴜsᴇʀs ᴍᴜsᴛ ᴄᴏᴍᴘʟʏ ᴡɪᴛʜ ᴀʟʟ ᴀᴘᴘʟɪᴄᴀʙʟᴇ ʟᴀᴡs ᴀɴᴅ ᴘʟᴀᴛғᴏʀᴍ ᴘᴏʟɪᴄɪᴇs.\n"
+        "4️⃣ ᴛʜᴇ ʙᴏᴛ ʀᴇsᴇʀᴠᴇs ᴛʜᴇ ʀɪɢʜᴛ ᴛᴏ ʙᴀɴ ᴜsᴇʀs ғᴏʀ ᴀʙᴜsᴇ ᴏʀ ᴍɪsᴜsᴇ.\n\n"
+        "ʙʏ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ, ʏᴏᴜ ᴀɢʀᴇᴇ ᴛᴏ ᴛʜᴇsᴇ ᴛᴇʀᴍs."
     )
     await m.reply_text(tos_text)
 
@@ -123,12 +123,12 @@ async def tos_callback(bot: Client, q: CallbackQuery):
         ]
     )
     tos_text = (
-        "**📜 Terms of Service - Restrict Content Saver Bot**\n\n"
-        "1️⃣ This bot is for educational purposes only.\n"
-        "2️⃣ The owner is not responsible for any misuse or violation of platform ToS.\n"
-        "3️⃣ Users must comply with all applicable laws and platform policies.\n"
-        "4️⃣ The bot reserves the right to ban users for abuse or misuse.\n\n"
-        "By using this bot, you agree to these terms."
+        "**📜 ᴛᴇʀᴍs ᴏғ sᴇʀᴠɪᴄᴇ - ʀᴇsᴛʀɪᴄᴛ ᴄᴏɴᴛᴇɴᴛ sᴀᴠᴇʀ ʙᴏᴛ**\n\n"
+        "1️⃣ ᴛʜɪs ʙᴏᴛ ɪs ғᴏʀ ᴇᴅᴜᴄᴀᴛɪᴏɴᴀʟ ᴘᴜʀᴘᴏsᴇs ᴏɴʟʏ.\n"
+        "2️⃣ ᴛʜᴇ ᴏᴡɴᴇʀ ɪs ɴᴏᴛ ʀᴇsᴘᴏɴsɪʙʟᴇ ғᴏʀ ᴀɴʏ ᴍɪsᴜsᴇ ᴏʀ ᴠɪᴏʟᴀᴛɪᴏɴ ᴏғ ᴘʟᴀᴛғᴏʀᴍ TᴏS.\n"
+        "3️⃣ ᴜsᴇʀs ᴍᴜsᴛ ᴄᴏᴍᴘʟʏ ᴡɪᴛʜ ᴀʟʟ ᴀᴘᴘʟɪᴄᴀʙʟᴇ ʟᴀᴡs ᴀɴᴅ ᴘʟᴀᴛғᴏʀᴍ ᴘᴏʟɪᴄɪᴇs.\n"
+        "4️⃣ ᴛʜᴇ ʙᴏᴛ ʀᴇsᴇʀᴠᴇs ᴛʜᴇ ʀɪɢʜᴛ ᴛᴏ ʙᴀɴ ᴜsᴇʀs ғᴏʀ ᴀʙᴜsᴇ ᴏʀ ᴍɪsᴜsᴇ.\n\n"
+        "ʙʏ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ, ʏᴏᴜ ᴀɢʀᴇᴇ ᴛᴏ ᴛʜᴇsᴇ ᴛᴇʀᴍs."
     )
     await q.message.edit_text(tos_text, reply_markup=btn)
 
