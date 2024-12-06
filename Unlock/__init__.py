@@ -42,7 +42,7 @@ API_ID = os.getenv("API_ID")  # Telegram API ID
 API_HASH = os.getenv("API_HASH")  # Telegram API Hash
 BOT_TOKEN = os.getenv("BOT_TOKEN")  # Bot Token from BotFather
 SESSION = os.getenv("SESSION_STRING")  # User session string (for user bot)
-DEVELOPER = "@CoderX" # don't change.
+DEVELOPER = "@TheHamkerGuy" # don't change.
 MAX_ALLOWED_DOWNLOAD_SIZE = os.getenv("ALLOWED_DOWNLOAD_SIZE", 50)
 
 # Check if all necessary environment variables are loaded
