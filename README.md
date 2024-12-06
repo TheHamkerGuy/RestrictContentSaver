@@ -1,4 +1,4 @@
-# Restricted Content Saver Bot
+# Restrict Content Saver Bot
 
 > A **Telegram Bot** designed to save and retrieve restricted content seamlessly. This bot allows users to access restricted media by using simple commands. Built with Python and Pyrogram, it is a beginner-friendly project that you can easily clone, run, and customize.
 
@@ -23,7 +23,7 @@ Follow these steps to clone and run the bot on your local machine.
 2. **Telegram API Credentials**:
    - **Bot Token**: Obtain from [BotFather](https://t.me/BotFather).
    - **API_ID** and **API_HASH**: Get them from [my.telegram.org](https://my.telegram.org).
-   - **SESSION**: You can use https://github.com/ShivangKakkar/StringSessionBot
+   - **SESSION**: You can use 
 
 ---
 
@@ -31,8 +31,8 @@ Follow these steps to clone and run the bot on your local machine.
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/YourGitHubUsername/RestrictedContentSaver.git
-   cd RestrictedContentSaver
+   git clone https://github.com/TheHamkerGuy/RestrictContentSaver.git
+   cd RestrictContentSaver
    ```
 
 2. **Install Dependencies**  
@@ -88,7 +88,7 @@ Follow these steps to clone and run the bot on your local machine.
 
 ## Known Issues
 
-This project is in its **initial stages** and might have bugs or incomplete features. If you encounter any issues, please report them in the [Support Chat](https://t.me/StarkBotsChat). Logs will help us debug the problem faster, so be sure to include them when reporting.
+This project is in its **initial stages** and might have bugs or incomplete features. If you encounter any issues, please report them in the [Support Chat](https://t.me/ToolsTheHamkerGuySupport). Logs will help us debug the problem faster, so be sure to include them when reporting.
 
 ---
 
@@ -100,12 +100,12 @@ Logs are automatically created during bot runtime to help track errors and user 
 
 ## Contributing
 
-We welcome contributions! Please check [contribution guidelines](https://github.com/StarkBotsIndustries/RestrictedContentSaver/blob/main/CONTRIBUTING.MD).
+We welcome contributions! Please check [contribution guidelines](https://github.com/TheHamkerGuy/RestrictContentSaver/blob/main/CONTRIBUTING.MD).
 
 ---
 
 ### Authors
-This project is maintained and developed by **StarkBotsIndustries** and its contributors. We appreciate your interest and contributions to this open-source project. For any queries or discussions, feel free to join our [support chat](https://t.me/StarkBotsChat) or follow updates on our [channel](https://t.me/StarkBots).
+This project is maintained and developed by **TheHamkerGuy** and its contributors. We appreciate your interest and contributions to this open-source project. For any queries or discussions, feel free to join our [support chat](https://t.me/ToolsTheHamkerGuySupport) or follow updates on our [channel](https://t.me/ToolsTheHamkerGuy).
 
 ---
 ### LICENSE
@@ -114,7 +114,7 @@ This project is maintained and developed by **StarkBotsIndustries** and its cont
 ### Conditions of Use
 
 - A copy of the original license and copyright notice must be included in all significant portions of the software.
-- If you distribute or modify this software, please ensure that you retain the original license and include a link to the [original source code repository](https://github.com/StarkBotsIndustries/RestrictedContentSaver).
+- If you distribute or modify this software, please ensure that you retain the original license and include a link to the [original source code repository](https://github.com/TheHamkerGuy/RestrictContentSaver).
 
 **Disclaimer**:  
 The software is provided "AS IS," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. The authors or copyright holders will not be held liable for any claims, damages, or other liabilities arising from the software's use or misuse.
@@ -123,5 +123,5 @@ The software is provided "AS IS," without warranty of any kind, express or impli
 
 ## Contact
 
-- **Support Chat**: [@StarkBotsChat](https://t.me/StarkBotsChat)
-- **Updates Channel**: [@StarkBots](https://t.me/StarkBots)
+- **Support Chat**: [@ToolsTheHamkerGuySupport](https://t.me/ToolsTheHamkerGuySupport)
+- **Updates Channel**: [@ToolsTheHamkerGuy](https://t.me/ToolsTheHamkerGuy)
