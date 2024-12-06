@@ -4,8 +4,8 @@
 
 If you discover a security vulnerability within this project, please send an email to the project maintainer at:
 
-- **Snehashish Biswas**: [coderrx06@gmail.com](mailto:coderrx06@gmail.com)
-- **Inbox me on Telegram**: [CoderX](https://t.me/CoderX)
+- **Snehashish Biswas**: [thehamkerguy@gmail.com](mailto:thehamkerguygmail.com)
+- **Inbox me on Telegram**: [TheHamkerGuy](https://t.me/TheHamkerGuy)
 
 Please do not open a public issue for security-related vulnerabilities.
 
