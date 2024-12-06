@@ -74,7 +74,7 @@ async def save_file(bot: Client, m: Message):
     chat_type = identify_message_type(text)
 
     if chat_type is None:
-        return await m.reply_text("Invalid message link. Format: https://t.me/chat/123")
+        return await m.reply_text("ɪɴᴠᴀʟɪᴅ ᴍᴇssᴀɢᴇ ʟɪɴᴋ. ғᴏʀᴍᴀᴛ: https://t.me/chat/123")
 
     msg_id = text.split("/")[-1]  # Extract message ID from the URL
     if chat_type == "private":
@@ -84,10 +84,10 @@ async def save_file(bot: Client, m: Message):
 
     joining_link = None
     if chat_type == "private":
-        ask_msg = await m.chat.ask("Please send the joining link of the private chat:")
+        ask_msg = await m.chat.ask("ᴘʟᴇᴀsᴇ sᴇɴᴅ ᴛʜᴇ ᴊᴏɪɴɪɴɢ ʟɪɴᴋ ᴏғ ᴛʜᴇ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ:")
         joining_link = ask_msg.text  # Joining link for private chats
 
-    processing_msg = await m.reply_text("Processing... Please wait. It might take a minute or two depending on the file size.")
+    processing_msg = await m.reply_text("ᴘʀᴏᴄᴇssɪɴɢ... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ. ɪᴛ ᴍɪɢʜᴛ ᴛᴀᴋᴇ ᴀ ᴍɪɴᴜᴛᴇ ᴏʀ ᴛᴡᴏ ᴅᴇᴘᴇɴᴅɪɴɢ ᴏɴ ᴛʜᴇ ғɪʟᴇ sɪᴢᴇ.")
     save_result = await saver(m, chat_id, msg_id, chat_type, joining_link, processing_msg)
 
     # Handle potential errors
