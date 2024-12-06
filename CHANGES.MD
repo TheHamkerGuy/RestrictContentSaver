@@ -5,7 +5,7 @@ This document records significant updates and modifications to the project.
 ---
 
 ## Initial Release
-- **Date**: 25/11/2024
+- **Date**: 
 - **Changes**: 
   - Implemented core functionality for restricted content saving.
   - Added start, help, and terms of service commands.
