@@ -5,8 +5,8 @@ This script uses the Pyrogram library to process private and public message link
 retrieve the associated files via a UserBot, and send them to the requesting user.
 
 Author:
-    - @CoderX on Telegram
-    - @Snehashish06 on GitHub
+    - @TheHamkerGuy on Telegram
+    - @TheHamkerGuy on GitHub
 
 Project:
     - Developed for the @StarkBots channel on Telegram.
